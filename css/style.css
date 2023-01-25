@@ -1,10 +1,9 @@
 :root {
-    --pr-color: #048853;
-    
+  --pr-color: #048853;
 }
 
 * {
-    z-index: 2;
+  z-index: 2;
 }
 
 body {
@@ -15,80 +14,158 @@ body {
 /* Navbar Style */
 
 .navbar {
-    z-index: 3;
+  z-index: 3;
 }
 
 .navbar-brand {
-    font-weight: 700;
-    font-size: 20px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 .nav-link {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .nav-link.active {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .button-secondary {
-    width: 133px;
-    height: 40px;
-    background-color: #fff;
-    color: var(--pr-color);
-    border: none;
-    font-size: 16px;
-    font-weight: 700;
+  width: 133px;
+  height: 40px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
 }
 
 .button-primary {
-    width: 133px;
-    height: 40px;
-    background-color: transparent;
-    color: #fff;
-    border: none;
-    font-size: 16px;
-    font-weight: 400;
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  font-weight: 400;
 }
 
 /* Hero Section Style */
 
 #hero {
-    background: linear-gradient(160deg, var(--pr-color), #000);
-    height: 100vh;
+  background: linear-gradient(160deg, var(--pr-color), #000);
+  height: 100vh;
 }
 
 .hero-tagline h1 {
-    color: #fff;
-    font-weight: 700;
-    font-size: 50px;
-    line-height: 72px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 72px;
 }
 
 .hero-tagline p {
-    font-size: 16px;
-    color: #fff;
-    margin-top: 20px;
-    margin-bottom: 60px;
-    line-height: 30px;
-    width: 85%;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  line-height: 30px;
+  width: 85%;
 }
 
 .button-lg-primary {
-    width: 237px;
-    height: 70px;
-    background-color: #fff;
-    color: var(--pr-color);
-    border: none;
-    font-size: 20px;
-    font-weight: 700;
+  width: 237px;
+  height: 70px;
+  background-color: #fff;
+  color: var(--pr-color);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .img-hero {
-    height: 100%;
-    z-index: 1;
+  height: 100%;
+  z-index: 1;
 }
 
 .img-accent {
-    z-index: 1;
+  z-index: 1;
 }
+
+/* Service Section Style */
+
+#service {
+  padding: 100px 0;
+}
+
+h2 {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--pr-color);
+}
+
+.subtitle {
+  font-size: 18px;
+  color: #000;
+}
+
+.card-service {
+  width: 100%;
+  height: 313px;
+  border-radius: 5px;
+  background: #fff;
+  padding: 40px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+  transition: all .2s ease-in;
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--pr-color);
+  border-radius: 50%;
+  transition: all .1s ease-in;
+}
+
+.card-service h3 {
+  color: var(--pr-color);
+  font-size: 24px;
+  transition: all .2s ease-in;
+}
+
+.card-service p {
+  color: #000;
+  font-size: 14px;
+  transition: all .3s ease-in;
+}
+
+/* Service Section Style */
+/* Hover */
+
+.card-service:hover {
+    width: 100%;
+    height: 313px;
+    border-radius: 5px;
+    background: linear-gradient(160deg, var(--pr-color), #000);
+    padding: 40px;
+    box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.05);
+    transition: all .2s ease-out;
+  }
+  
+  .card-service:hover .circle-icon {
+    background-color: #fff;
+    transition: all .1s ease-out;
+  }
+  
+  .card-service:hover h3 {
+    color: #fff;
+    font-size: 24px;
+    transition: all .2s ease-out;
+  }
+  
+  .card-service:hover p {
+    color: #fff;
+    font-size: 14px;
+    transition: all .3s ease-out;
+  }
+  
