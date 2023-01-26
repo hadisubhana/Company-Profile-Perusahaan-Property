@@ -291,3 +291,67 @@ h2 {
 .card-fasilitas p {
     font-size: 12px;
 }
+
+/* Fasilitas Section Style */
+
+.button-fitur {
+    width: 238px;
+    height: 63px;
+    background-color: var(--pr-color);
+    border:none;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#fitur h2 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.card-fitur h5 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.card-fitur span {
+    color: #fff;
+    font-size: 14px;
+}
+
+.card-fitur h6 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-fitur button {
+    background-color: var(--pr-color);
+    color: #fff;
+    border: none;
+    width: 150px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.card-fitur .overlay {
+    background-color: rgba(0,0,0,0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-fitur .overlay:hover {
+    background-color: rgba(0,0,0,0.6);
+    opacity: 1;
+}
+
+.button-arrow-left, .button-arrow-right {
+    border:none;
+    border-radius: 50%;
+    width: 61px;
+    height: 61px;
+    background-color: var(--pr-color);
+    padding: 0;
+}
