@@ -1,11 +1,58 @@
 @media screen and (max-width: 922px) {
+
+    .card-service {
+        margin: 15px 0;
+    }
+
     .input-cari .button-secondary {
         width: 120px;
         font-size: 14px;
+        border-radius: 0;
     }
 
     .input-cari .button-primary {
         font-size: 24px;
+        border-radius: 0 0 10px 10px !important;
+    }
+
+    .button-fitur {
+        width: 100%;
+    }
+
+    #kontak {
+        height: auto;
+    }
+
+    #kontak h3 {
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .card-kontak {
+        width: 100%;
+        height: auto;
+        padding: 54px 48px;
+        margin-top: 42px;
+    }
+    
+    .card-kontak h2 {
+        font-size: 32px;
+        line-height: 60px;
+        margin-bottom: 21px;
+    }
+
+    .button-primary {
+        display: block;
+        width: 100%;
+    }
+
+    .button-secondary {
+        display: block;
+        width: 100%;
+    }
+
+    .input-cari .form-control {
+        height: auto !important;
     }
 }
 
@@ -25,10 +72,6 @@
 
     .subtitle {
         font-size: 16px;
-    }
-
-    .card-service {
-        margin: 15px 0;
     }
 
     #search h2 {
@@ -54,9 +97,9 @@
         border-radius: 0;
     }
 
-    .input-cari .form-control {
+    /* .input-cari .form-control {
         height: 60px !important;
-    }
+    } */
 }
 
 @media screen and (max-width: 350px) {

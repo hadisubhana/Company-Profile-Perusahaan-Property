@@ -380,6 +380,7 @@ h2 {
 
 #kontak .overlay {
     background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
 }
 
 #kontak .container {
@@ -439,7 +440,7 @@ h2 {
 
 .form-control {
     background-color: #c4c4c4;
-    height: 75px !important;
+    /* height: 75px !important; */
     border-radius: 0;
 }
 
